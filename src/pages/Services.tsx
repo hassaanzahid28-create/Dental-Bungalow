@@ -6,7 +6,7 @@ import SEOHead from "@/components/SEOHead";
 
 const services = [
   { icon: "🦷", title: "General Dentistry", desc: "Routine checkups, cleanings, and preventive care to maintain your oral health." },
-  { icon: "🦴", title: "Root Canal Treatment", desc: "Modern, pain-free root canal procedures to save damaged teeth effectively." },
+  { icon: "🩺", title: "Root Canal Treatment", desc: "Modern, pain-free root canal procedures to save damaged teeth effectively." },
   { icon: "🪥", title: "Dental Fillings", desc: "High-quality composite and amalgam fillings for cavities and tooth decay." },
   { icon: "✨", title: "Teeth Whitening", desc: "Professional whitening treatments to brighten your smile by several shades." },
   { icon: "📐", title: "Braces & Orthodontics", desc: "Orthodontic treatments for teeth alignment and bite correction for all ages." },
