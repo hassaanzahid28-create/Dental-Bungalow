@@ -16,7 +16,8 @@ const servicesPreview = [
   { icon: "🦷", title: "General Dentistry", desc: "Comprehensive dental checkups, cleanings, and preventive care for the whole family." },
   { icon: "🩺", title: "Root Canal Treatment", desc: "Pain-free root canal procedures using modern techniques and equipment." },
   { icon: "✨", title: "Teeth Whitening", desc: "Professional whitening treatments for a brighter, more confident smile." },
-  { icon: "📐", title: "Braces & Orthodontics", desc: "Orthodontic solutions for perfectly aligned teeth and a beautiful smile." },
+   { icon: "😁", title: "Braces & Orthodontics", desc: "Orthodontic solutions for perfectly aligned teeth and a beautiful smile." },
+
 ];
 
 const HomePage = () => {
