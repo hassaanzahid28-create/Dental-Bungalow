@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Dental Bungalow" className="h-14 w-auto brightness-0 invert" />
+             <img src={logo} alt="Dental Bungalow" className="h-14 w-auto" />
             </div>
             <p className="text-sm leading-relaxed text-background/60">
               Professional & affordable dental care in Faisalabad. Your smile is our priority.
