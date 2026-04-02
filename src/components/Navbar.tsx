@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="container-dental flex items-center justify-between h-16 md:h-20">
         {/* Logo placeholder */}
         <Link to="/" className="flex items-center gap-2">
-           <img src={logo} alt="Dental Bungalow" className="h-20 w-auto rounded-full" />
+           <img src={logo} alt="Dental Bungalow" className="h-15 w-auto rounded-full" />
         </Link>
 
         {/* Desktop nav */}
