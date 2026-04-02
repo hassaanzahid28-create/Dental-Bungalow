@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Clock, Mail } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -9,12 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">D</span>
-              </div>
-              <span className="font-display text-xl font-bold text-background">
-                Dental Bungalow
-              </span>
+              <img src={logo} alt="Dental Bungalow" className="h-14 w-auto brightness-0 invert" />
             </div>
             <p className="text-sm leading-relaxed text-background/60">
               Professional & affordable dental care in Faisalabad. Your smile is our priority.
