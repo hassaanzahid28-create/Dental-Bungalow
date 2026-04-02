@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-             <img src={logo} alt="Dental Bungalow" className="h-14 w-auto" />
+                         <img src={logo} alt="Dental Bungalow" className="h-14 w-auto rounded-full bg-background p-1" />
             </div>
             <p className="text-sm leading-relaxed text-background/60">
               Professional & affordable dental care in Faisalabad. Your smile is our priority.
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-sm">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href="tel:+923247235114" className="hover:text-primary transition-colors">+92 324 7235114</a>
+                <a href="tel:+923247235114" className="hover:text-primary transition-colors text-background">+92 324 7235114</a>
               </li>
               <li className="flex items-center gap-2 text-sm">
                 <Clock className="w-4 h-4 text-primary shrink-0" />
@@ -71,7 +71,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-background/10 text-center text-sm text-background/40">
+ <div className="mt-8 flex justify-center">
+            <a href="tel:+923247235114">
+              <button className="flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors">
+                <Phone className="w-4 h-4" />
+                Call Now – +92 324 7235114
+              </button>
+            </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-background/10 text-center text-sm text-background/40">
           <p>© {new Date().getFullYear()} Dental Bungalow. All rights reserved. Serving patients across Faisalabad.</p>
         </div>
       </div>
