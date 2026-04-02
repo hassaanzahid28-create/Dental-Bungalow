@@ -40,9 +40,7 @@ const Navbar = () => {
       <div className="container-dental flex items-center justify-between h-16 md:h-20">
         {/* Logo placeholder */}
         <Link to="/" className="flex items-center gap-2">
-           <img src={logo} alt="Dental Bungalow" className="h-15 w-auto rounded-full" />
-        </Link>
-
+           <img src={logo} alt="Dental Bungalow" className="h-12 w-auto rounded-full" />
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-1">
           {navLinks.map((link) => (
