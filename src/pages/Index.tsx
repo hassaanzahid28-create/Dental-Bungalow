@@ -55,16 +55,16 @@ const HomePage = () => {
               Professional & Affordable Dental Treatments — Your smile deserves the best care with modern equipment and experienced specialists.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-              <Link to="/contact">
+             <a href="tel:+923247235114" >
                 <Button size="lg" className="rounded-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base">
-                  Book Appointment
+                  Call Us Now
                   <ArrowRight className="w-4 h-4" />
                 </Button>
-              </Link>
-              <a href="tel:+923247235114">
+              </a>
+              <a href="https://wa.me/923247235114?text=Hello%20I%20want%20to%20book%20an%20appointment">
                 <Button size="lg" variant="outline" className="rounded-full gap-2 border-background bg-background/15 text-background hover:bg-background/25 px-8 text-base">
                   <Phone className="w-4 h-4" />
-                  Call Now
+                  Whatsapp Us
                 </Button>
               </a>
             </div>
@@ -253,10 +253,10 @@ const HomePage = () => {
                 Book Appointment
               </Button>
             </Link>
-            <a href="tel:+923247235114">
-              <Button size="lg" variant="outline" className="rounded-full px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+            <a href="https://wa.me/923247235114">
+              <Button size="lg" variant="secondary" className="rounded-full px-8 shadow-sm">
                 <Phone className="w-4 h-4 mr-2" />
-                +92 324 7235114
+                  Whatsapp Us
               </Button>
             </a>
           </div>

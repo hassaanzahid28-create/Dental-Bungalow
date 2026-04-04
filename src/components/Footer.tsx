@@ -72,10 +72,10 @@ const Footer = () => {
         </div>
 
           <div className="mt-8 flex justify-center">
-            <a href="tel:+923247235114">
+            <a href="https://wa.me/923247235114?text=Hello%20I%20want%20to%20book%20an%20appointment">
               <button className="flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors">
                 <Phone className="w-4 h-4" />
-                Call Now – +92 324 7235114
+                Contact Us on Whatsapp
               </button>
             </a>
           </div>

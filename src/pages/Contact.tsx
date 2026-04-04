@@ -118,17 +118,22 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="animate-on-scroll rounded-2xl overflow-hidden border border-border shadow-sm h-[300px]">
+               <a
+                href="https://maps.app.goo.gl/zzajzfXuheN82Ko57"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="animate-on-scroll rounded-2xl overflow-hidden border border-border shadow-sm h-[300px] block"
+              >
                 <iframe
                   title="Dental Bungalow Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.123!2d73.079!3d31.418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI1JzA0LjgiTiA3M8KwMDQnNDQuOCJF!5e0!3m2!1sen!2spk!4v1234567890"
                   width="100%"
                   height="100%"
-                  style={{ border: 0 }}
+                 style={{ border: 0, pointerEvents: "none" }}
                   allowFullScreen
                   loading="lazy"
                 />
-              </div>
+                </a>
             </div>
           </div>
         </div>
