@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Phone, Mail, Award, BookOpen, Briefcase, Heart } from "lucide-react";
+import { Phone, Mail, Award, BookOpen, Briefcase, Heart, MessageCircleHeartIcon } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import doctorImg from "@/assets/doctor-placeholder.webp";
 
@@ -47,8 +47,8 @@ const DoctorPage = () => {
                 <a href="tel:+923247235114" className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
                   <Phone className="w-5 h-5 text-primary" />
                 </a>
-                <a href="mailto:" className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
-                  <Mail className="w-5 h-5 text-primary" />
+                <a href="https://wa.me/923247235114" className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+                  <MessageCircleHeartIcon className="w-5 h-5 text-primary" />
                 </a>
               </div>
             </div>
@@ -56,7 +56,7 @@ const DoctorPage = () => {
             {/* Info */}
             <div className="md:col-span-3 space-y-8">
               <div className="animate-on-scroll">
-                <h2 className="text-3xl font-display font-bold text-foreground mb-1">[Doctor Name]</h2>
+                <h2 className="text-3xl font-display font-bold text-foreground mb-1">Doctor Taqarrub Ali Khan</h2>
                 <p className="text-primary font-semibold">Dental Surgeon</p>
               </div>
 
@@ -66,19 +66,43 @@ const DoctorPage = () => {
                   <h3 className="font-display text-lg font-semibold text-foreground">Qualifications</h3>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed pl-7">
-                  [BDS, FCPS or relevant qualifications — to be updated]
+                  [BDS, RDS, C.Implantology, Dental Surgeon, Ex House Officer Allied Hospital Faisalabad]
                 </p>
               </div>
 
               <div className="animate-on-scroll">
-                <div className="flex items-center gap-2 mb-3">
-                  <Briefcase className="w-5 h-5 text-primary" />
-                  <h3 className="font-display text-lg font-semibold text-foreground">Experience</h3>
-                </div>
-                <p className="text-muted-foreground text-sm leading-relaxed pl-7">
-                  [Years of experience and notable career highlights — to be updated]
-                </p>
-              </div>
+  <div className="flex items-center gap-2 mb-3">
+    <Briefcase className="w-5 h-5 text-primary" />
+    <h3 className="font-display text-lg font-semibold text-foreground">Experience</h3>
+  </div>
+
+  <div className="pl-7 space-y-6 text-sm text-muted-foreground leading-relaxed">
+    <div>
+      <h4 className="font-bold">House Job – Allied Hospital Faisalabad (2021–2022)</h4>
+      <p>Rotations in <strong>Oral Surgery, Prosthodontics, Orthodontics, Periodontology, Operative Dentistry & Radiology</strong>.</p>
+    </div>
+
+    <div>
+      <h4 className="font-bold">Clinical Experience – Smile Center Faisalabad (2021–2023)</h4>
+      <p>Worked on <strong>restorative & esthetic dentistry</strong> (whitening, zirconia). Strong expertise in <strong>scaling, periodontal care & oral hygiene management</strong>.</p>
+    </div>
+
+    <div>
+      <h4 className="font-bold">Associate Dentist – Dent Care Braces & Implant Centre (2022–2023)</h4>
+      <p>Performed <strong>RCTs, cosmetic procedures & general treatments</strong> under Dr. Rana Mohsin Raza Khan.</p>
+    </div>
+
+    <div>
+      <h4 className="font-bold">Private Practice – Dental Bungalow (2023–Present)</h4>
+      <p>Providing <strong>orthodontics, prosthodontics & dental surgeries</strong>.</p>
+    </div>
+
+    <div>
+      <h4 className="font-bold">Core Expertise</h4>
+      <p>Extractions • Root Canals • Crown & Bridge • Fillings • Dentures • Implants</p>
+    </div>
+  </div>
+</div>
 
               <div className="animate-on-scroll">
                 <div className="flex items-center gap-2 mb-3">
@@ -90,6 +114,7 @@ const DoctorPage = () => {
                   <li>• Root Canal Treatment</li>
                   <li>• Orthodontics</li>
                   <li>• Dental Implants</li>
+                  <li>• Braces </li>
                 </ul>
               </div>
 
@@ -98,9 +123,17 @@ const DoctorPage = () => {
                   <Heart className="w-5 h-5 text-primary" />
                   <h3 className="font-display text-lg font-semibold text-foreground">Biography</h3>
                 </div>
-                <p className="text-muted-foreground text-sm leading-relaxed pl-7">
-                  [A brief biography about the doctor's passion for dental care, their journey, and commitment to patient well-being — to be updated]
-                </p>
+                                <div className="pl-7 text-sm text-muted-foreground leading-relaxed space-y-4">
+                  <p>
+                    <span role="img" aria-label="tooth">🦷</span> Dr. Taqarrub Ali Khan is a dedicated dental professional with a deep passion for transforming smiles and improving oral health. From rigorous training at Allied Hospital Faisalabad to hands-on experience in restorative, cosmetic, and surgical dentistry, Dr. Taqarrub Ali Khan has built a career centered on patient care and precision.
+                  </p>
+                  <p>
+                    Over the years, Dr. Taqarrub Ali Khan has developed expertise in a wide range of dental procedures, including orthodontics, prosthodontics, implants, and cosmetic treatments. His journey reflects a commitment not just to clinical excellence, but also to educating patients on oral hygiene and preventative care.
+                  </p>
+                  <p>
+                    Driven by compassion and dedication to patient well-being, Dr. Taqarrub Ali Khan continues to provide personalized, high-quality dental care, ensuring every patient leaves with a healthier, more confident smile.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
