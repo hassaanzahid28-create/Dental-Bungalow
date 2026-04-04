@@ -139,6 +139,11 @@ const HomePage = () => {
               <blockquote className="text-lg text-muted-foreground italic leading-relaxed mb-4">
                 "Good dental care facilities at affordable prices. Very competent dental surgeon and good support staff."
               </blockquote>
+               <a href="https://maps.app.goo.gl/zzajzfXuheN82Ko57" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block">
+                  <Button className="rounded-full gap-2 px-8 bg-primary text-primary-foreground hover:bg-primary/90">
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </a>
               <p className="text-sm text-muted-foreground">— Verified Patient Review</p>
             </div>
           </div>
@@ -152,18 +157,44 @@ const HomePage = () => {
             <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">Our Location</p>
             <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">Visit Our Clinic</h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 items-start animate-on-scroll">
+          <div className="rounded-2xl overflow-hidden border border-border shadow-sm h-[350px] relative">
             <div className="rounded-2xl overflow-hidden border border-border shadow-sm h-[350px]">
-              <iframe
-                title="Dental Bungalow Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.123!2d73.079!3d31.418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI1JzA0LjgiTiA3M8KwMDQnNDQuOCJF!5e0!3m2!1sen!2spk!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+             <div style={{ position: "relative", width: "100%", height: "400px" }}>
+  
+  {/* Clickable overlay */}
+  <a
+    href="https://maps.app.goo.gl/zzajzfXuheN82Ko57"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      zIndex: 2,
+      cursor: "pointer",
+    }}
+  />
+
+  {/* Embedded Map */}
+  <iframe
+    title="Dental Bungalow Location"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.123!2d73.079!3d31.418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI1JzA0LjgiTiA3M8KwMDQnNDQuOCJF!5e0!3m2!1sen!2spk!4v1234567890"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
+               <a href="https://maps.app.goo.gl/zzajzfXuheN82Ko57" target="_blank" rel="noopener noreferrer" className="absolute bottom-3 right-3">
+                <Button size="sm" className="rounded-full gap-2 shadow-lg">
+                  <MapPin className="w-4 h-4" />
+                  Open in Maps
+                </Button>
+              </a>
             </div>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
