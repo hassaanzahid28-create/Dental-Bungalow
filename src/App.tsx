@@ -7,6 +7,7 @@ import { HelmetProvider } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import Doctor from "./pages/Doctor";
@@ -36,6 +37,7 @@ const App = () => (
           </main>
           <Footer />
           <StickyCallButton />
+          <WhatsAppButton />
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
