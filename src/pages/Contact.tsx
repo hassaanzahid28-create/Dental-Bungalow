@@ -13,7 +13,7 @@ const ContactPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
       const text = `📋 *New Appointment Request*%0A%0A👤 *Name:* ${form.name}%0A📞 *Phone:* ${form.phone}%0A📧 *Email:* ${form.email || "Not provided"}%0A💬 *Message:* ${form.message || "No message"}`;
-    window.open(`https://wa.me/923170888742?text=${text}`, "_blank");
+    window.open(`https://wa.me/923247235114?text=${text}`, "_blank");
 
     setForm({ name: "", phone: "", email: "", message: "" });
   };
