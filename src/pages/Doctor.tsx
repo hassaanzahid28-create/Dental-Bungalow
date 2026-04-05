@@ -57,7 +57,7 @@ const DoctorPage = () => {
             <div className="md:col-span-3 space-y-8">
               <div className="animate-on-scroll">
                 <h2 className="text-3xl font-display font-bold text-foreground mb-1">Doctor Taqarrub Ali Khan</h2>
-                <p className="text-primary font-semibold">Dental Surgeon</p>
+                <p className="text-primary font-semibold">Dentist</p>
               </div>
 
               <div className="animate-on-scroll">
