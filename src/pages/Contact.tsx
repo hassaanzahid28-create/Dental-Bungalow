@@ -116,7 +116,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Clinic Hours</h3>
-                    <p className="text-muted-foreground text-sm">Opens 11 AM — Monday to Saturday</p>
+                    <p className="text-muted-foreground text-sm">Opens 4 PM — 9 PM  Monday to Saturday</p>
                   </div>
                 </div>
               </div>
