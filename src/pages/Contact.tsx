@@ -38,7 +38,7 @@ const ContactPage = () => {
         <div className="container-dental text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2 animate-fade-up">Get In Touch</p>
           <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Contact Us
+             Contact Dental Bungalow Faisalabad
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Book your appointment or ask us anything. We're here to help!

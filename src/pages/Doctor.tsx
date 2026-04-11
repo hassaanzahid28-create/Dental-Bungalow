@@ -24,7 +24,7 @@ const DoctorPage = () => {
         <div className="container-dental text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2 animate-fade-up">Meet Our Dentist</p>
           <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Doctor Profile
+             Best Dental Surgeon in Faisalabad
           </h1>
         </div>
       </section>

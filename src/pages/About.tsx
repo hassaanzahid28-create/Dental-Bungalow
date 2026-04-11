@@ -51,7 +51,7 @@ const AboutPage = () => {
         <div className="container-dental text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2 animate-fade-up">About Us</p>
           <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            About Dental Bungalow
+           About Dental Bungalow – Trusted Dental Clinic in Faisalabad
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Your trusted partner for dental health in Faisalabad since day one.

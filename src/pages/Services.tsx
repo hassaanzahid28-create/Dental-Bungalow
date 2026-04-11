@@ -37,7 +37,7 @@ const ServicesPage = () => {
         <div className="container-dental text-center">
           <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2 animate-fade-up">What We Offer</p>
           <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Our Dental Services
+            Affordable Dental Services in Faisalabad
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Comprehensive dental care solutions tailored to your needs, using the latest equipment and techniques.
