@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Phone, Mail, Award, BookOpen, Briefcase, Heart, MessageCircleHeartIcon } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
-import doctorImg from "@/assets/doctor-placeholder.webp";
+import doctorImg from "@/assets/doctor.png";
 
 const DoctorPage = () => {
   useEffect(() => {
