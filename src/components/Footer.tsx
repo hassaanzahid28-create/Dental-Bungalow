@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, MapPin, Clock, Mail } from "lucide-react";
+import { Phone, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -9,12 +9,20 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-                        <img src={logo} alt="Dental Bungalow" className="h-14 w-auto rounded-full bg-background p-1" />
+            <div className="mb-5 inline-flex items-center justify-center rounded-full bg-background p-2 shadow-lg ring-1 ring-border/60">
+              <img src={logo} alt="Dental Bungalow" className="h-20 md:h-24 w-auto rounded-full" />
             </div>
-            <p className="text-sm leading-relaxed text-background/60">
+            <p className="text-sm leading-relaxed text-background/60 mb-4">
               Professional & affordable dental care in Faisalabad. Your smile is our priority.
             </p>
+            <div className="flex items-center gap-3">
+              <a href="https://www.facebook.com/share/1Cm5S3Wwvx/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+                <Facebook className="w-4 h-4 text-background" />
+              </a>
+              <a href="https://www.instagram.com/ranataqarrub?igsh=MWs4NWZjdWpoc21ydA==" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+                <Instagram className="w-4 h-4 text-background" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -61,32 +69,29 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-sm">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                 <a href="tel:+923247235114" className="hover:text-primary transition-colors text-background">+92 324 7235114</a>
+                <a href="tel:+923247235114" className="hover:text-primary transition-colors text-background">+92 324 7235114</a>
               </li>
               <li className="flex items-center gap-2 text-sm">
                 <Clock className="w-4 h-4 text-primary shrink-0" />
-                Opens 4 PM - 9 PM
+                Opens 11 AM
               </li>
             </ul>
           </div>
         </div>
 
-          <div className="mt-8 flex justify-center">
-            <a href="https://wa.me/923247235114?text=Hello%20I%20want%20to%20book%20an%20appointment">
-              <button className="flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors">
-                <Phone className="w-4 h-4" />
-                Contact Us on Whatsapp
-              </button>
+          <div className="mt-10 flex justify-center">
+            <a
+              href="tel:+923247235114"
+              aria-label="Call Dental Bungalow"
+              className="inline-flex items-center gap-3 rounded-full bg-background px-7 py-4 text-base font-semibold text-foreground shadow-xl ring-1 ring-border transition-all hover:-translate-y-0.5 hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-foreground"
+            >
+              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                <Phone className="w-5 h-5" />
+              </span>
+              <span>Call Now – +92 324 7235114</span>
             </a>
           </div>
-          <div className="mt-8 pt-8 border-t border-background/10 text-center text-sm text-background/40">
-            <a href="tel:+923247235114">
-              <button className="flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors">
-                <Phone className="w-4 h-4" />
-                Call Now – +92 324 7235114
-              </button>
-            </a>
-          </div>
+
           <div className="mt-8 pt-8 border-t border-background/10 text-center text-sm text-background/40">
           <p>© {new Date().getFullYear()} Dental Bungalow. All rights reserved. Serving patients across Faisalabad.</p>
         </div>
