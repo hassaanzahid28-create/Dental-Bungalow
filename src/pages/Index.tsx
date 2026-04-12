@@ -63,10 +63,10 @@ const HomePage = () => {
               Trusted Dental Care in Faisalabad
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-background mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-              Best Dentist & Dental Clinic in Faisalabad
+              Dental Bungalow | Best Dentist & Dental Clinic in Faisalabad
             </h1>
             <p className="text-lg md:text-xl text-background/80 mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-              Professional & Affordable Dental Treatments — Your smile deserves the best care with modern equipment and experienced specialists.
+              Dental Bungalow Professional & Affordable Dental Treatments — Your smile deserves the best care with modern equipment and experienced specialists.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
               <Link to="/contact">
