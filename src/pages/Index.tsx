@@ -47,7 +47,7 @@ const HomePage = () => {
   return (
     <>
       <SEOHead
-        title="Dental Bungalow – Best Dental Clinic in Faisalabad"
+        title="Dental Bungalow | Best Dental Clinic in Faisalabad"
         description="Dental Bungalow offers professional & affordable dental treatments in Faisalabad. Root canal, teeth whitening, braces & more. Call +92 324 7235114."
       />
 
